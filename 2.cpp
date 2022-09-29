@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    map<int, string> mp;
+    map<int, string> mp;   // this is a map
     string str;
     int n, num;
     cin >> n;
@@ -24,7 +24,9 @@ int main()
     cout << (*it).first << " " << (*it).second;
 
     cout << endl
-         << endl;
+         << endl << endl;
+    
+    // these are some of the map operations
 
     // erase function takes either key value or it as input and deletes the value
     mp.erase(3); // O(log(n))
